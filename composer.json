@@ -3,6 +3,12 @@
         "slim/slim": "^3.8",
         "monolog/monolog": "^1.23",
         "slim/twig-view": "^2.2",
-        "illuminate/database": "^5.5"
+        "illuminate/database": "^5.5",
+        "robmorgan/phinx": "^0.9.1"
+    },
+    "autoload": {
+    	"psr-4" : {
+    		"Blog\\": "src/"
+    	}
     }
 }
